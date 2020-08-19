@@ -33,9 +33,9 @@ class TestStockPricesMaxProfit(unittest.TestCase):
         stock_prices_yesterday = [10, 7, 1]
         min_buy, max_sell, max_profit = get_max_profit(stock_prices_yesterday)
 
-        self.assertEqual(min_buy, 0)
-        self.assertEqual(max_sell, 0)
-        self.assertEqual(max_profit, 0)
+        self.assertEqual(min_buy, -1)
+        self.assertEqual(max_sell, -1)
+        self.assertEqual(max_profit, -1)
 
 
 if __name__ == '__main__':
