@@ -19,4 +19,4 @@ def get_max_profit(prices):
             return min_buy, max_sell, max_profit
     except Exception as e:
         print(e)
-        return 0, 0, 0
+        return -1, -1, -1
