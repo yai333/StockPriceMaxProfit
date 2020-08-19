@@ -11,7 +11,7 @@ Write an efficient function that takes an array of stock prices and returns the 
 
 ### Run Script
 
-set `stock_prices_yesterday` value and run following command:
+set `stock_prices_yesterday` value and in `main.py` run following command:
 
 ```
 python main.py
