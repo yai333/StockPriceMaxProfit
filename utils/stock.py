@@ -1,3 +1,6 @@
+import logging
+
+
 def get_max_profit(prices):
     min_buy = 0
     max_sell = 0
@@ -18,5 +21,5 @@ def get_max_profit(prices):
         else:
             return min_buy, max_sell, max_profit
     except Exception as e:
-        print(e)
+        logging.exception(e)
         return -1, -1, -1
