@@ -21,7 +21,7 @@ class TestStockPricesMaxProfit(unittest.TestCase):
         self.assertEqual(max_sell, 11)
         self.assertEqual(max_profit, 6)
 
-    def test_with_duplicate_values(self):
+    def test_with_duplicated_values(self):
         stock_prices_yesterday = [10, 7, 1, 1, 20, 10]
         min_buy, max_sell, max_profit = get_max_profit(stock_prices_yesterday)
 
